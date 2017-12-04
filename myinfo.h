@@ -8,8 +8,8 @@ struct MyInfo{
 	std::string pName = "";
 	int life=20;
 	int mana=3;
-	std::vector<Card *> pHand=nullptr;
-	std::vector<Card *> pBoard=nullptr;
+	std::vector<CardInfo > pHand=nullptr;
+	std::vector<CardInfo > pBoard=nullptr;
 	Card* pGYard=nullptr;
 	Card* pRitual=nullptr;
 };
